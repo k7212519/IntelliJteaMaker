@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xzw.intellijteamaker.about">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/img_teamaker"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/teamaker" />
+
+        <TextView
+            android:id="@+id/project_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/img_teamaker"
+            android:layout_below="@+id/img_teamaker"
+            android:text="项目名称："
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/project_name_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_teamaker"
+            android:layout_toEndOf="@+id/project_name"
+            android:text="智能泡茶机"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/project_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/project_name"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/person"
+            android:text="IntelliJteaMaker"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/project_english"
+            android:layout_marginTop="29dp"
+            android:layout_toStartOf="@+id/project_name_"
+            android:text="项目参与人员："
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/person_r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/person"
+            android:layout_alignBottom="@+id/person"
+            android:layout_toEndOf="@+id/person"
+            android:text="段梦芳 朱小云 何洋 "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/person_r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/person"
+            android:layout_toEndOf="@+id/person"
+            android:layout_marginTop="8dp"
+            android:text="徐张伟 颜树仁"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">智能泡茶机</string>
+
+    <string name="title_1">一键泡茶</string>
+    <string name="title_2">自定义泡茶</string>
+    <string name="custom_makeTea">创建自定义方案</string>
+
+    <string name="text_1">选择茶的种类</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="instantStateTip">未连接</string>
+
+    <string name="greenTea">greenTea</string>
+    <string name="redTea">redTea</string>
+    <string name="tieGuanYin">tieGuanYin</string>
+    <string name="yellowTea">yellowTea</string>
+    <string name="whiteTea">whiteTea</string>
+    <string name="blackTea">blackTea</string>
+
+    <string name="title_activity_info">info</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

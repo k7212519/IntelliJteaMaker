@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tea">
+        <item>绿茶</item>
+        <item>红茶</item>
+        <item>铁观音</item>
+        <item>黑茶</item>
+        <item>黄茶</item>
+        <item>白茶</item>
+    </string-array>
+</resources>

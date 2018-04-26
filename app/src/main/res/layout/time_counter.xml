@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <com.example.TimerCountdownView
+        android:id="@+id/view2"
+        android:layout_width="120dip"
+        android:layout_height="120dip"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#01BCB3"
+        android:textSize="30sp"
+        android:text="00:00"/>
+    <TextView
+        android:id="@+id/timer_hint"
+        android:layout_below="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#cccccc"
+        android:textSize="13sp"
+        android:layout_marginBottom="10dip"
+        android:text="/分钟\n倒计时"/>
+</RelativeLayout>
